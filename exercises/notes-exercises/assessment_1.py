@@ -19,9 +19,10 @@ for i in range(7):
     else:
         print('Round number', turn, ':This round has ended in a draw')
 
+print()
 if player_one_score > player_two_score:
     print('Player 1 wins the game, by', player_one_score, 'wins to', player_two_score)
 elif player_one_score < player_two_score:
     print('Player 2 wins the game, by', player_two_score, 'wins to', player_one_score)
 else:
-    print("It's a Tie! Both Player 1 and Player 2 won ", player_one_score, " games each.")
+    print("It's a tie! Both Player 1 and Player 2 won ", player_one_score, " rounds each.")
